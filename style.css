@@ -1,0 +1,29 @@
+
+:root {
+    color-scheme: light;
+    --ink : #000;
+    --paper : #fff;
+}
+
+html {      
+  font-family: "Playwrite GB J", cursive;
+}
+.logo {
+    width: 5%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    font-family: "Playwrite GB J", cursive;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--paper);
+    color: var(--ink);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sunrise-header {
+    width: 18rem;
+}
